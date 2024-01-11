@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "nombre": "Demon Slayer",
+      "categoria": "mangas",
+      "precio": 7.99,
+      "imagen": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/03/07/16466417939316.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Jujutsu Kaisen",
+        "categoria": "mangas",
+        "precio": 12.99,
+        "imagen": "https://pack-yak.intomanga.com/thumbnails/manga/Jujutsu-Kaisen/d88692a5-c341-47fc-8e39-da11a8fdee82"
+      }
+
+  ]

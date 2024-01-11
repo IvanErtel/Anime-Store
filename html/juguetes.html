@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--  Fuentes Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!-- Enlace a tu archivo CSS personalizado -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../estilos/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <meta charset="UTF-8">
+        <title>Juguetes</title>
+    </head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">           
+        <a href="../index.html" class="navbar-brand">Anime World Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="../index.html#quienes-somos" class="nav-link">Who We Are</a></li>
+                <li class="nav-item"><a href="../index.html#contacto" class="nav-link">Contact</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Toys</a></li>
+                      <li><a class="dropdown-item" href="../html/mangas.html">Mangas</a></li>
+                    </ul>
+                  </li>
+            </ul>
+        </div>
+        <a href="../html/carrito.html" class="nav-link">
+            <img class="carrito" src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="Carrito de Compras">
+        </a>
+    </div>
+</nav>
+        
+        <!-- Banner -->
+        <header class="bannerJuguetes">
+          <h1>Welcome to Anime World Store</h1>
+          <p>Find the best products for you</p>
+        </header>
+
+            <!-- Productos Con Json-->
+        <div class="container" id="contenedorJuguetes">
+          <h2 class="text-center">Our Products</h2>
+        </div>
+
+        <!-- BOTON SCROLL -->
+        <button onclick="scrollToTop()" id="scrollButton" title="Ir arriba"><i class="fas fa-chevron-up"></i></button>
+        <!-- FIN BOTON SCROLL --> 
+      <!-- Site footer -->
+      <footer class="site-footer mt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify"> <i>Ivan Ertel Ramirez</i> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic aperiam deserunt veniam,
+                 deleniti dolores non sunt assumenda ipsa mollitia aliquid sint error fugit quae vel iusto ut modi minus nemo nulla? Fugit quae ex qui. Aperiam aut 
+                 dolorum sint itaque accusantium, possimus doloribus explicabo reiciendis nam consectetur libero cupiditate tempora? </p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="#">One Piece</a></li>
+                <li><a href="#">Demon Slayer</a></li>
+                <li><a href="#">Jujutsu-Kaisen</a></li>
+                <li><a href="#">Attack on Titan</a></li>
+                <li><a href="#">Naruto</a></li>
+                <li><a href="#">Bleach</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023. Designed by 
+           <a href="#"> Ivan Ertel Ramirez</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="../scripst/script.js"></script>
+    <script src="../scripst/juguetes.js"></script>
+</body>
+</html>
